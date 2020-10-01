@@ -6,11 +6,7 @@ import java.util.Map;
 
 public class Task03Main {
     public static void main(String[] args) {
-        //здесь вы можете вручную протестировать ваше решение, вызывая реализуемый метод и смотря результат
-        // например вот так:
-        /*
-        System.out.println(getNameOfWeekDays(7));
-         */
+        
     }
 
     static String getNameOfWeekDays(int weekDaysNumber) {
@@ -23,6 +19,6 @@ public class Task03Main {
             put(6, "суббота");
             put(7, "воскресенье");
         }};
-        return dictionary.get(weekDaysNumber);//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
+        return dictionary.get(weekDaysNumber);
     }
 }
