@@ -6,11 +6,11 @@ public class Task01Main {
         // например вот так:
         /*
         boolean b = canGetDriverLicense(100);
-        System.out.println(b);
+        System.out.println();
          */
     }
 
     static boolean canGetDriverLicense(int age) {
-        return true;//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
+        return age > 17;//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
     }
 }
