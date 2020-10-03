@@ -6,7 +6,7 @@ public class Task01Main {
         // например вот так:
         /*
         boolean b = canGetDriverLicense(100);
-        System.out.println(b);
+        System.out.println();
          */
     }
 
